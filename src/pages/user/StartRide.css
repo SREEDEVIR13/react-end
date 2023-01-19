@@ -1,0 +1,126 @@
+.sr-btn{
+    padding: 10px 15px;
+    margin: 35px auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #93c47d, #5cbfec);
+    cursor: pointer;
+    transition: opacity 0.4s;
+
+
+}
+.sr-btn:hover{
+    background: linear-gradient(-135deg, #8af0e7, #93c47d);
+
+}
+
+
+.sr-outer-box{
+    box-shadow: 0 4px 8px 0 rgba(17, 143, 122, 0.2);
+    background-color: rgb(234, 240, 239);
+  transition: 0.3s;
+  border-radius: 2vh;
+  margin: auto;
+ text-align: center; 
+   margin-bottom: 5vh;
+   margin-top: 3vh;
+   display: flex;
+   height: fit-content;
+   width: fit-content;
+  
+}
+.sr-detail{
+    display: flex;
+    column-gap: 3vh;
+    align-items: center;
+}
+.sr-row{
+    border-radius:1vh;
+    box-shadow: 0 4px 8px 0 rgba(230, 118, 118, 0.2);
+    background-color: rgb(103, 172, 121);
+    margin-top: 2vh;
+    width: 13vw;
+   /* height:5vh; */
+   padding: 5px;
+   margin-bottom: 2vh;
+   margin-left: 3vh;
+   text-align: left;
+    
+ }
+
+
+ .sbc-outer-box{
+    border-radius: 2vh;
+    box-shadow: 0 4px 8px 0 rgba(230, 118, 118, 0.2);
+    background-color: antiquewhite;
+  transition: 0.3s;
+   margin :auto;
+   text-align: center; 
+
+   width: fit-content;
+   height: fit-content;
+   margin-bottom: 5vh;
+   margin-top: 3vh;
+   display: flex;
+
+   align-items: center;
+ }
+ .sbc-details{
+    display: flex;
+    column-gap: 3vh;
+    align-items: center;
+    
+
+ }
+ .sbc-row{
+    border-radius:1vh;
+    box-shadow: 0 4px 8px 0 rgba(230, 118, 118, 0.2);
+    background-color: darkgrey;
+    margin-top: 2vh;
+    width:fit-content;
+   
+    margin-right: 3vh;
+   height: fit-content;
+   margin-bottom: 3vh;
+   margin-left: 1vw;
+   text-align: justify;
+   text-align:center;
+ }
+
+ .sbc-icon{
+    font-size: 5vh;
+    display:flex;
+margin-left: 3vh;
+}
+.sr-title{
+    text-align: center;
+}
+    
+.sr-middile{
+    display: flex;
+    height: 77vh;
+    margin: 6rem;
+
+}
+ .sr-left-side{
+    display: flex;
+    position: relative;
+    flex:1;
+    flex-direction: column;
+ }
+
+.sr-left-data{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+
+
+ 
+ .sr-right-side{
+    flex:1;
+ }
