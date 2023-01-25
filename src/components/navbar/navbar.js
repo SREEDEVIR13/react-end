@@ -47,9 +47,9 @@ function Layout(props) {
                             <button class="dropbtn">TRIPS</button>
                             <i class="fa fa-caret-down"></i>
                             <div class="dropdown-content">
-                                <Link className='ddlink' to="/">REQUESTS</Link>
+                                <Link className='ddlink' to="/trip-Request">REQUESTS</Link>
                                 <Link className='ddlink' to="/trip-hosted">HOSTED RIDES</Link>
-                                <Link className='ddlink' to="/">TRIP HISTORY</Link>
+                                <Link className='ddlink' to="/trip-history">TRIP HISTORY</Link>
                             </div>
                         </div>
                         <li className='topListItem'><Link className='link' to="/check-wheels">WHEELS</Link></li>
@@ -82,6 +82,7 @@ function Layout(props) {
                 {props.children}
 
             </div>
+            
 
         </>
 

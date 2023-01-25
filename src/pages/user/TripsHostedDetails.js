@@ -129,7 +129,7 @@ export default function TripsHostedDetails() {
               </div>
               <div className="th-first">
                 <div className="th-row1"> <label>Date:{data. startDate} </label><br></br></div>
-                <div  className="th-row"><label>StartTime: {data. startTime}</label></div>
+                <div  className="th-row"><label>Start Time: {data. startTime}</label></div>
               </div>
               <div className="check-ride-btn">
                    <button    onClick={() => {

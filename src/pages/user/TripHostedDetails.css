@@ -3,9 +3,10 @@
     margin-top: 3vh;
 }
 .trip-hosted-container{
-  background: whitesmoke;
+  background: transparent;
   margin: auto;
   border-radius:20px ;
+  width: fit-content;
  
   
  

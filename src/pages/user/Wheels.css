@@ -86,14 +86,25 @@
     
 .AddVehicle{
   
-  border: 0 !important;
+  /* border: 0 !important;
   margin: 0 auto;
   background-color: rgb(218, 121, 11);
   border-radius: 10px;
   height: 100px;
   width: 100px;
-  color: white;
- 
+  color: white; */
+  color: #fff;
+  width: 200px;
+     padding: 10px 15px;
+     margin: 35px auto;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     font-weight: bold;
+     background-image: linear-gradient(to right, #93c47d, #5cbfec);
+     cursor: pointer;
+     transition: opacity 0.4s;
+     /* margin-right: 16px; */
+     text-align: center;
 
  /* align- */
 

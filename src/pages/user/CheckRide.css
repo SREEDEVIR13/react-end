@@ -132,8 +132,10 @@ text-align: center;
    margin-bottom: 5vh;
    margin-top: 3vh;
    display: flex;
-
    align-items: center; */
+ height: fit-content;
+ width: fit-content;
+
 
 }
 .crm-row{
@@ -149,8 +151,10 @@ text-align: center;
     display: inline-block;
     /* column-gap: 10px; */
     padding: 0 25px;
-    height: 105px;
+    /* height: 105px; */
+   
     width:250px ;
+    width: fit-content;
     box-shadow: 0 4px 8px 0 rgba(17, 143, 122, 0.2);
     background-color: rgb(234, 240, 239);
     /* background-color: rgb(201, 230, 225); */
@@ -163,6 +167,7 @@ text-align: center;
     margin-bottom: 5vh;
     margin-top: 3vh;
 }
+
 .crm-icon{
    
 }
@@ -173,20 +178,7 @@ display:flex;}
 
 
  .crm-column{
-    border-radius:1vh;
-    box-shadow: 0 4px 8px 0 rgba(230, 118, 118, 0.2);
-    background-color: darkgrey;
-   
-    width:fit-content;
-   
-    margin-right: 3vh;
-   height:fit-content;
-   margin-bottom:3px;
-   margin-left: 3vh;
- align-items: center;
-   text-align: justify;
- text-align:center;
- margin: auto;
+    
  }
  .crm-card{
    

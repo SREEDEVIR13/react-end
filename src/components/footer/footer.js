@@ -7,7 +7,7 @@ export default function Footer(props) {
     return (
         <>
 
-            <div className='bottom'>
+<footer className='bottom'>
                 <div className='bottomLeft'>
                     RIDE BUDDY
                 </div>
@@ -30,7 +30,7 @@ export default function Footer(props) {
         </div>
 
 
-            </div>
+            </footer>
             <div>
                 {props.children}
             </div>

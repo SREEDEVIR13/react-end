@@ -149,19 +149,19 @@ export default function CheckRide() {
                 <div key={data.InvitationId} className="crm-outerbox">
                   {/* <div className="crm-details"> */}
                   <div className="crm-row">
-                    {/* <div className="crm-avatar"> </div> */}
-                    <img src={data.imageSrc} className="avatar" />
-                    {/* <div className="crm-icon"> */}
-                    <p> {data.fullName}</p>
-                    {/* </div> */}
-                    {/* </div> */}
-                    {/* <div className="crm-column"> */}
-                    {Invitedstatusget && <p> STATUS :Invited </p>}
+                 
+                  <img src={data.imageSrc} className="avatar" />
+                   
+                     {data.fullName}
+                
+              
+                    <div className="crm-column">
+                    {Invitedstatusget && <p> STATUS:Invited </p>}
                     {Acceptedstatusget && <p> STATUS :Accepted </p>}
                     {Deniedstatusget && <p> STATUS :Turned Down </p>}
 
                   </div>
-                  {/* </div> */}
+                  </div>
                 </div>
               );
             })}
@@ -191,7 +191,7 @@ export default function CheckRide() {
                     <label>john</label>
                   </div>
                   <div className="cbc-row">
-                    <label>from: </label>
+                    <label>from: </label><br></br>
                     <label>To:</label>
                   </div>
                 </div>
@@ -199,7 +199,7 @@ export default function CheckRide() {
 
               <div className="cbc-first">
                 <div className="cbc-row">
-                  <label>Accept</label>
+                <label>Accept</label>
                 </div>
                 <div className="cbc-row">
                   <label>Deny </label>
