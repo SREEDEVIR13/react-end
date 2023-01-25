@@ -50,7 +50,10 @@ margin-top: 2vh;
      color: #fff;
      width: 160px;
         padding: 8px 15px;
-        margin: 15px auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* margin: 15px auto; */
         text-transform: uppercase;
         letter-spacing: 2px;
         font-weight: bold;

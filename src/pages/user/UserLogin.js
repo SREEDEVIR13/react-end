@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import Layout from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
 import { decodeToken } from "react-jwt";
+import swal from "sweetalert";
 
 
 
@@ -42,25 +43,25 @@ export default function UserLogin() {
     }
 
     const addOrEdit = (formData, onSuccess) => {
-        console.log()
         UserAPI().create(formData)
             .then(res => {
                 console.log(res.data.output)
-
                 onSuccess();
-                if(res.data.output != "wrong password" || res.data.output!="user not found")
-                {
-                    localStorage.setItem("token", res.data.output);
-                    TokenCheck();
-                    console.log("Redirect after login");
-                    navigate("/home-page")
-                }
-                
-                
+                localStorage.setItem('token', res.data.output);
+                localStorage.setItem('Uid',res.data.user)
+                TokenCheck();
+                console.log("local:",localStorage.getItem("token"))
+                console.log("Redirect after login");
+             
+                swal({
+                    title: "Success",
+                    text: "Logged in Successfully",
+                    icon: "success",
+                  });
+                navigate("/home-page")
             })
             .catch(err => console.log(err))
     }
-
 
 
 
