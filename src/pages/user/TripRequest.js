@@ -54,9 +54,22 @@ export default function TripsRequest() {
       });
      
   }
-  function postStatus(statusAccept) {
+  function postStatus() {
     axios
-      .post('https://localhost:7149/api/RequestHandler/myridestatus')
+      .post('https://localhost:7149/api/RequestHandler/myridestatus',{statusAccept,statusDeny,
+
+      })
+      .then((Response) => {
+        
+
+       
+        console.log(Response);
+        
+       
+      })
+      .catch((error) => {
+        console.log(error);
+      });
     
     }
 

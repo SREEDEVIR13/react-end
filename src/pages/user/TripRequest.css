@@ -23,6 +23,15 @@ margin-top: 2vh;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+  @media(max-width:1200px)
+  {
+    .request-container{
+      display: flex;
+      flex-direction: column;
+     
+      justify-content: space-evenly;
+    }
+  }
   .request-row{
     border-radius:8px;
     box-shadow: 0 4px 8px 0 rgba(230, 118, 118, 0.2);

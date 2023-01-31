@@ -28,6 +28,10 @@ import StartRide from './pages/user/StartRide';
 import TripsHistory from './pages/user/TripsHistory';
 import JoinedTripHistory from './pages/user/JoinedTripHistory';
 import TripRequest from './pages/user/TripRequest';
+import AdminProfile from './pages/admin/AdminProfile';
+import AdminTripManagement from './pages/admin/AdminTripManagement';
+
+
 function App() {
   return (
     <div className="App">
@@ -59,6 +63,8 @@ function App() {
         <Route path='/trip-history' element={<TripsHistory></TripsHistory>}></Route>  
         <Route path='/joined-trip-history' element={<JoinedTripHistory></JoinedTripHistory>}></Route> 
         <Route path='/trip-Request' element={<TripRequest></TripRequest>}></Route> 
+      <Route path='/admin-profile' element={<AdminProfile></AdminProfile>}></Route>
+      <Route path='/admin-trips' element={<AdminTripManagement></AdminTripManagement>}></Route>
       </Routes>
     </div>
   );
