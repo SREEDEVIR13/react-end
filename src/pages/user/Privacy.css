@@ -1,0 +1,29 @@
+.privacy-container{
+padding :60px
+}
+.privacy-heading{
+text-align: center;
+/* margin-top: 3vh; */
+
+}
+.privacy-body{
+    box-shadow: 0 4px 8px 0 rgba(17, 143, 122, 0.2);
+     /* background-color: rgb(234, 240, 239); */
+     background-color: rgb(201, 230, 225);
+   transition: 0.3s;
+   border-radius: 20px;
+   margin: auto;
+   margin-top: 5vh;
+  text-align: center; 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   text-align: justify;
+    height: fit-content;
+   
+    padding: 30px
+
+}
+    
+
+

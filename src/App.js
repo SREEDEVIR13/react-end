@@ -30,6 +30,10 @@ import JoinedTripHistory from './pages/user/JoinedTripHistory';
 import TripRequest from './pages/user/TripRequest';
 import AdminProfile from './pages/admin/AdminProfile';
 import AdminTripManagement from './pages/admin/AdminTripManagement';
+import HostedTrips from './pages/admin/HostedTrips';
+import PreviousTrips from './pages/admin/PreviousTrips';
+import Privacy from './pages/user/Privacy';
+import Services from './pages/user/Services';
 
 
 function App() {
@@ -65,6 +69,10 @@ function App() {
         <Route path='/trip-Request' element={<TripRequest></TripRequest>}></Route> 
       <Route path='/admin-profile' element={<AdminProfile></AdminProfile>}></Route>
       <Route path='/admin-trips' element={<AdminTripManagement></AdminTripManagement>}></Route>
+      <Route path='/admin-trips-hosted' element={<HostedTrips></HostedTrips>}></Route>
+      <Route path='/admin-trips-previous' element={<PreviousTrips></PreviousTrips>}></Route>
+      <Route path='/privacy' element={<Privacy></Privacy>}></Route> 
+      <Route path='/Services' element={<Services></Services>}></Route> 
       </Routes>
     </div>
   );
